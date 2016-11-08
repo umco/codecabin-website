@@ -1510,6 +1510,13 @@ h5.project-title{
 .fs-section-1{
 	background-image: url(../images/codecabin_group_jump_dark.jpg);
 }
+
+@media only screen and (max-width: 768px) {
+	.fs-section-1{
+		background-image: url(../images/codecabin_group_jump.jpg);
+	}
+}
+
 .fs-section-2{
 	background-image: url(../images/slider/slide-15-fs.jpg);
 }
@@ -2628,10 +2635,5 @@ only screen and (				min-resolution: 2dppx) {
 	}
 	.post-1-next.pagination-image{
 		background-image: url(../images/blog/pagination/post-1-next@2x.jpg);
-	}
-
-	/* Presentation Page */
-	.fs-section-1{
-		background-image: url(../images/codecabin_group_jump.jpg);
 	}
 }
