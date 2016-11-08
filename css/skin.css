@@ -321,7 +321,8 @@ h5.project-title{
 @media only screen and (max-width: 768px){
 	h1,
 	.title-xlarge {
-		font-size: 5.2rem;
+		font-size: 4.2rem;
+		line-height: 5.5rem;
 	}
 	h2,
 	.title-large{
@@ -533,6 +534,14 @@ h5.project-title{
 	padding-top: 11rem;
 	padding-bottom: 11rem;
 }
+
+@media only screen and (max-width: 768px){
+	.section-block {
+		padding-top: 7rem;
+	}
+}
+
+
 .section-block.replicable-content{
 	padding-top: 11rem;
 	padding-bottom: 8rem;
@@ -572,8 +581,8 @@ h5.project-title{
 }
 @media only screen and (max-width: 768px){
 	.fullscreen-section.content-below-on-mobile .fullscreen-inner {
-		padding-top: 12rem !important;
-		padding-bottom: 12rem !important;
+		padding-top: 6rem !important;
+		padding-bottom: 6rem !important;
 	}
 }
 
@@ -2492,15 +2501,6 @@ only screen and (				min-resolution: 2dppx) {
 	.hero-4-homepage-1{
 		background-image: url(../images/slider/slide-1-fw@2x.jpg);
 	}
-	.hero-5-homepage-1 > .row:after{
-		background-image: url(../images/generic/hero-half-4@2x.jpg);
-	}
-	.hero-5-homepage-2 > .row:after{
-		background-image: url(../images/generic/hero-half-2@2x.jpg);
-	}
-	.hero-5-homepage-3 > .row:after{
-		background-image: url(../images/generic/hero-half-3@2x.jpg);
-	}
 
 	/* About */
 	.hero-5-about-1 > .row:after{
@@ -2623,18 +2623,6 @@ only screen and (				min-resolution: 2dppx) {
 
 	/* Presentation Page */
 	.fs-section-1{
-		background-image: url(../images/slider/slide-1-fs@2x.jpg);
-	}
-	.fs-section-2{
-		background-image: url(../images/slider/slide-15-fs@2x.jpg);
-	}
-	.fs-section-3{
-		background-image: url(../images/slider/slide-8-fs@2x.jpg);
-	}
-	.fs-section-4{
-		background-image: url(../images/slider/slide-7-fs@2x.jpg);
-	}
-	.fs-section-5{
-		background-image: url(../images/slider/slide-7-fs@2x.jpg);
+		background-image: url(../images/codecabin_group_jump.jpg);
 	}
 }
