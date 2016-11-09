@@ -2013,12 +2013,8 @@ textarea.required-field{
 	margin-right: 0.5rem;
 }
 .footer .social-list a{
-	margin-left: 0.8rem;
-	margin-right: 0.8rem;
-	font-size: 1.1rem;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 0.1rem;
+	margin:0;
+	font-size: 1rem;
 }
 .side-navigation-footer .social,
 .side-navigation-footer .social-list a{
@@ -2085,12 +2081,10 @@ textarea.required-field{
 .footer .navigation a,
 .footer .navigation a, 
 .footer .social-list a{
-	margin: 0 0.8rem 0 0.6rem;
-	font-size: 0.9rem;
+	margin: 0;
+	font-size: 1rem;
 	font-weight: normal;
 	color: #666;
-	text-transform: uppercase;
-	letter-spacing: 0.1rem;
 }
 .footer .navigation li:last-child a{
 	color: #fff;
