@@ -20,17 +20,53 @@
     	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <meta property="og:url"                content="http://codecab.in" />
-	<meta property="og:title"              content="CODECABIN 2017" />
-	<meta property="og:description"        content="CODECABIN is the premier, invite-only weekend away for Umbraco developers, providing time to code, learn and network in a completely relaxed and open environment away from the hustle and bustle of every day life." />
-	<meta property="og:image"              content="http://codecab.in/images/cc17-venue-01.jpg" />
+    <meta property="og:url" content="http://codecab.in" />
+	<meta property="og:title" content="CODECABIN 2017" />
+	<meta property="og:description" content="CODECABIN is the premier, invite-only weekend away for Umbraco developers, providing time to code, learn and network in a completely relaxed and open environment away from the hustle and bustle of every day life." />
+	<meta property="og:image" content="http://codecab.in/images/cc17-venue-01.jpg" />
 
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@codecabin" />
 
+	<script type="application/ld+json">
+	{  
+	   "@context":"http://schema.org",
+	   "@type":"Event",
+	   "name":"CODECABIN 2017",
+	   "description":"CODECABIN is the premier, invite-only weekend away for Umbraco developers, providing time to code, learn and network in a completely relaxed and open environment away from the hustle and bustle of every day life.",
+	   "url":"http://codecab.in/",
+	   "startDate":"2017-09-08T17:00:00",
+	   "endDate":"2017-09-11T10:00:00",
+	   "image":"http://codecab.in/images/cc17-venue-01.jpg",
+	   "location":{  
+	      "@type":"Place",
+	      "name":"Telephone Exchange",
+	      "address":{  
+	         "@type":"PostalAddress",
+	         "addressLocality":"Parsley Hay",
+	         "addressRegion":"Peak District",
+	         "url":"http://www.peakvenues.co.uk/venues/20/the-telephone-exchange-at-parsley-hay/"
+	      },
+	      "hasMap": "https://www.google.co.uk/maps/place/53%C2%B010'09.2%22N+1%C2%B046'48.5%22W/@53.169222,-1.7812328,419m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x0!8m2!3d53.169222!4d-1.780152"
+	   },
+	   "offers":{  
+	      "@type":"Offer",
+    	  "availability" : "http://schema.org/LimitedAvailability",
+	      "price":300.00,
+	      "priceCurrency":"GBP"
+	   },
+	   "organizer":{  
+	      "@type":"Organization",
+	      "url":"http://weareumco.com",
+	      "name":"UMCO"
+	   }
+	}
+	</script>
+
+
 </head>
 
-<body class="home-page" itemscope itemtype="http://schema.org/Event">
+<body class="home-page">
 
 	<!-- Side Navigation Menu -->
 	<aside id="mobile-access" class="side-navigation-wrapper one-page-nav enter-left">
@@ -81,7 +117,7 @@
 					<div class="row nav-bar reveal-side-navigation">
 						<div class="column width-12 nav-bar-inner">
 							<div class="logo">
-								<a itemprop="url"  href="http://codecab.in"><img src="images/logo.png" alt="CODECABIN" /></a>
+								<a  href="http://codecab.in"><img src="images/logo.png" alt="CODECABIN" /></a>
 							</div>
 							<div id="side-nav-show" class="navigation-show hide">
 								<a href="#">
@@ -146,7 +182,7 @@
 							<div class="column width-12 center">
 								<h2>An Umbraco Event Like No Other</h2>
 							</div>
-							<div class="column width-8 offset-2 center" class="description" itemprop="description">
+							<div class="column width-8 offset-2 center" class="description">
 								<p class="lead color-charcoal mb-50 mb-mobile-30">CODECABIN is the premier, invite-only weekend away for Umbraco developers, providing time to code, learn and network
 									in a completely relaxed and open environment away from the hustle and bustle of every day life.</p>
 							</div>
@@ -390,7 +426,7 @@
 					<div class="section-block replicable-content bkg-white">
 						<div class="row">
 							<div class="column width-12 center">
-								<h2 itemprop="name">CODECABIN 2017</h2>
+								<h2>CODECABIN 2017</h2>
 							</div>
 							<div class="column width-8 offset-2 center">
 								<p class="lead color-charcoal mb-50 mb-mobile-30">The second CODECABIN event is coming, are you?</p>
@@ -398,17 +434,17 @@
 						</div>
 						
 						<div class="row">
-							<div class="column width-4" itemprop="location" itemscope itemtype="http://schema.org/Place">
+							<div class="column width-4">
 								<h4>The Venue</h4>
-								<p>CODECABIN 2017 will be held at the stunning <strong itemprop="name">Telephone Exchange</strong> at <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><strong itemprop="addressLocality">Parsley Hay</strong> in the <strong itemprop="addressRegion">Peak District</strong> run by the wonderful people at <a itemprop="url" href="http://www.peakvenues.co.uk/venues/20/the-telephone-exchange-at-parsley-hay/" target="_blank">Peak Venues</a></span>.</p>
+								<p>CODECABIN 2017 will be held at the stunning <strong>Telephone Exchange</strong> at <span><strong>Parsley Hay</strong> in the <strong>Peak District</strong> run by the wonderful people at <a href="http://www.peakvenues.co.uk/venues/20/the-telephone-exchange-at-parsley-hay/" target="_blank">Peak Venues</a></span>.</p>
 							</div>
 							<div class="column width-4">
 								<h4>The Date</h4>
-								<p>The 2017 CODECABIN event will take place on the weekend of <strong><span itemprop="startDate" content="2017-09-08T17:00">Friday 8th September 2017</span> until <span itemprop="endDate" content="2017-09-11T10:00">Monday 11th September 2017</span></strong>.</p>
+								<p>The 2017 CODECABIN event will take place on the weekend of <strong>Friday 8th September 2017 until Monday 11th September 2017</strong>.</p>
 							</div>
-							<div class="column width-4" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+							<div class="column width-4">
 								<h4>The Price</h4>
-								<p>The ticket price for CODECABIN 2017 will be <strong><span itemprop="price" content="300.00"><span itemprop="priceCurrency" content="GBP">£300</span></span></strong>, with spaces limited to <strong>20 attendees</strong> only.</p>
+								<p>The ticket price for CODECABIN 2017 will be <strong>£300</strong>, with spaces limited to <strong>20 attendees</strong> only.</p>
 							</div>
 						</div>
 					</div>
@@ -423,7 +459,7 @@
 							<div class="row content-grid-4 masonry-grid fade-in-progressively">
 								<div class="grid-item large">
 									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="000000" data-hover-bkg-opacity="0.6">
-										<img itemprop="image" src="images/cc17-venue-01.jpg" alt=""/>
+										<img src="images/cc17-venue-01.jpg" alt=""/>
 									</div>
 								</div>
 								<div class="grid-item">
@@ -498,7 +534,7 @@
 								<div class="grid-item">
 									<div class="widget">
 										<h4>About</h4>
-										<p itemprop="organizer" itemscope itemtype="http://schema.org/Organization">CODECABIN is brought to you by <a itemprop="url" href="http://weareumco.com" target="_blank"><span itemprop="name">UMCO</span></a>, a collaboration between
+										<p>CODECABIN is brought to you by <a href="http://weareumco.com" target="_blank"><span>UMCO</span></a>, a collaboration between
 											<a href="http://twitter.com/mattbrailsford" target="_blank">Matt Brailsford</a> and <a href="http://twitter.com/leekelleher"
 												target="_blank">Lee Kelleher</a>.</p>
 
