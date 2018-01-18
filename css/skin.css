@@ -65,7 +65,7 @@ cite,
 .accordion li a, 
 .tabs li a,
 .overlay-navigation-wrapper .site-search .form-element{
-	font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+	font-family: 'Monserrat', 'Helvetica Neue', sans-serif;
 }
 
 /* Links */
@@ -174,7 +174,7 @@ h6{
 /* Blog Titles & Text */
 h2.post-title{
 	margin-bottom: 3rem;
-	font-weight: 700;
+	font-weight: 600;
 }
 .blog-masonry .grid-item h2.post-title{
 	margin-bottom: 0;
@@ -226,7 +226,7 @@ h5.project-title{
 /* Rollover */
 .overlay-info > span > span{
 	font-size: 1.1rem;
-	font-weight: 700;
+	font-weight: 600;
 	letter-spacing: 0.1rem;
 	text-transform: uppercase;
 	color: #fff;
