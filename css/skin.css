@@ -608,7 +608,7 @@ h5.project-title{
 	padding-bottom: 3rem;
 	padding-bottom: 0.4rem;
 	text-transform: uppercase;
-	font-weight: 900;
+	font-weight: 600;
 	letter-spacing: 0.2rem;
 }
 .navigation .sub-menu{
@@ -2613,7 +2613,7 @@ only screen and (				min-resolution: 2dppx) {
 }
 
 /* BG Images */
-#hero { background-image: url(images/hero_dark.jpg); }
+#hero { background-image: url(../images/hero_dark.jpg); }
 @media only screen and (max-width: 768px) {
-	#hero { background-image: url(images/hero_light.jpg); }
+	#hero { background-image: url(../images/hero_light.jpg); }
 }
