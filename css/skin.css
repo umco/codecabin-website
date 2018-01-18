@@ -524,6 +524,10 @@ h5.project-title{
 	color: #6ed3cf;
 }
 
+.bkg-teal {
+	background-color: #00BEC1;
+	border-color: #00BEC1;
+}
 
 /*------------------------------------------------------------------
 [3. Section Padding]
@@ -1504,30 +1508,6 @@ h5.project-title{
 
 .fullscreen-section .fullscreen-inner{
 	background: rgba(0,0,0,0.35);
-}
-
-/* Presentation Page */
-.fs-section-1{
-	background-image: url(../images/codecabin_group_jump_dark.jpg);
-}
-
-@media only screen and (max-width: 768px) {
-	.fs-section-1{
-		background-image: url(../images/codecabin_group_jump.jpg);
-	}
-}
-
-.fs-section-2{
-	background-image: url(../images/slider/slide-15-fs.jpg);
-}
-.fs-section-3{
-	background-image: url(../images/slider/slide-8-fs.jpg);
-}
-.fs-section-4{
-	background-image: url(../images/slider/slide-7-fs.jpg);
-}
-.fs-section-5{
-	background-image: url(../images/slider/slide-7-fs.jpg);
 }
 
 /*------------------------------------------------------------------
@@ -2630,4 +2610,10 @@ only screen and (				min-resolution: 2dppx) {
 	.post-1-next.pagination-image{
 		background-image: url(../images/blog/pagination/post-1-next@2x.jpg);
 	}
+}
+
+/* BG Images */
+#hero { background-image: url(images/hero_dark.jpg); }
+@media only screen and (max-width: 768px) {
+	#hero { background-image: url(images/hero_light.jpg); }
 }
