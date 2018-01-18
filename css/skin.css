@@ -258,6 +258,7 @@ h5.project-title{
 /* Title Classes */
 .title-xlarge{
 	font-size: 8rem;
+	line-height: 8rem;
 }
 .tms-caption.scale.title-xlarge,
 .tmp-content .title-xlarge{
