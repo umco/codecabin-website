@@ -1091,19 +1091,6 @@ h5.project-title{
 	background-image: none;
 }
 
-/* Hero 2 */
-.hero-2-homepage-1{
-	background-image: url(../images/slider/slide-7-fw.jpg);
-}
-
-/* Hero 4 */
-.hero-4-homepage-1{
-	background-image: url(../images/slider/slide-1-fw.jpg);
-}
-.hero-4-homepage-1 > .row:before{
-	background-color: rgba(0,0,0,0.6);
-}
-
 /* Hero 5 */
 .hero-5-homepage-1 > .row:after{
 	background-image: url(../images/code.jpg);
