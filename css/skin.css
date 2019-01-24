@@ -1093,13 +1093,13 @@ h5.project-title{
 
 /* Hero 5 */
 .hero-5-homepage-1 > .row:after{
-	background-image: url(../images/code.jpg);
+	background-image: url(../images/cc18/03.jpg);
 }
 .hero-5-homepage-2 > .row:after{
-	background-image: url(../images/learn2.jpg);
+	background-image: url(../images/cc18/05.jpg);
 }
 .hero-5-homepage-3 > .row:after{
-	background-image: url(../images/relax.jpg);
+	background-image: url(../images/cc18/07.jpg);
 }
 .hero-5-homepage-4 > .row:after{
 	background-image: url(../images/organisers2.jpg);
@@ -2604,4 +2604,10 @@ only screen and (				min-resolution: 2dppx) {
 #hero { background-image: url(../images/hero_dark.jpg); }
 @media only screen and (max-width: 768px) {
 	#hero { background-image: url(../images/hero_light.jpg); }
+}
+
+.background-video {
+	object-fit: cover;
+	min-width: 100%;
+	min-height: 100%;
 }
