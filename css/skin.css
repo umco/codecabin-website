@@ -2606,7 +2606,7 @@ only screen and (				min-resolution: 2dppx) {
 	#hero { background-image: url(../images/hero_light.jpg); }
 }
 
-.background-video {
+.background-video { 
 	width: 100%;
 	height: 100%;
 }
