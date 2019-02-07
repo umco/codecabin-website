@@ -2489,10 +2489,10 @@ only screen and (				min-resolution: 2dppx) {
 	}
 	.hero-5-about-3 > .row:after{
 		background-image: url(../images/team/hero-half-3@2x.jpg);
-	}*/
+	}
 	.testimonials-5-about-1{
 		background: none;
-	}
+	}*/
 	.stats-1-about-1{
 		background-image: none;
 	}
