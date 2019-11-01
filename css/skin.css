@@ -2463,15 +2463,6 @@ only screen and (				min-resolution: 2dppx) {
 	.stats-1-homepage-1{
 		background-image: none;
 	}
-	.stats-1-homepage-2{
-		background-image: url(../images/slider/slide-14-fs@2x.jpg);
-	}
-	.hero-2-homepage-1{
-		background-image: url(../images/slider/slide-7-fw@2x.jpg);
-	}
-	.hero-4-homepage-1{
-		background-image: url(../images/slider/slide-1-fw@2x.jpg);
-	}
 
 	.hero-5-homepage-1 > .row:after,
 	.hero-5-homepage-2 > .row:after,
